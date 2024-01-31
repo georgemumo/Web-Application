@@ -1,0 +1,57 @@
+.home{
+    background-image: url("WIN_20231219_10_16_33_Pro.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+
+}
+.home .home-content {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home .text-one{
+    font-size: 24px;
+    color: green;
+}
+.home .text-two{
+    font-size: 20px;
+    color: aqua;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .text-three{
+    font-size: 18px;
+    margin: 5px 0;
+    color: black;
+}
+.home .text-four{
+    font-size: 15px;
+    margin: 5px 0;
+
+}
+.home .button{
+
+    margin: 16px;
+}
+.home .button button{
+    padding: 8px 16px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: red;
+    color: fuchsia;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.home .button button:hover{
+    border-color: black;
+    background-color: mediumvioletred;
+    color: black;
+}

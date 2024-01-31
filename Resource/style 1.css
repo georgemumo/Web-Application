@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial Rounded MT Bold";
+}
+.body{
+    background-color: silver;
+}
+
+.input-box{
+    margin-top: 10px;
+}
+.form{
+     background-color: aqua;
+    height: 110px;
+    width: 400px;
+    border: 1px;
+    padding:20px ;
+    border-radius: 10px;
+
+}
+.input-box input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+
+}
+.age{
+    font: 18px;
+}
+.btn{
+    text-align: center;
+    padding: 2px 4px;
+}
+.btn input{
+    padding: 0px 40px;
+    background-color: black;
+    color: black;
+    border-radius: 3px;
+    border: none;
+
+}
+.btn input: hover{
+    background-color: white;
+    colour:black;
+}
